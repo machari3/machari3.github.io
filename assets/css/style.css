@@ -1,0 +1,17 @@
+body {
+    margin: 1.5em 0;
+    background: #fff;
+    color: #333;
+}
+
+.container {
+    width: 788px;
+    margin: 0 auto;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}

@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Font Awesome 6 Free';
+    src: url('../fonts/fontawesome-6.1.1-web/webfonts/fa-solid-900.woff2') format('woff2'), /* Modern Browsers */ url('../fonts/fontawesome-6.1.1-web/webfonts/fa-solid-900.ttf') format('truetype'); /* Safari, Android, iOS */
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Font Awesome brands Free';
+    src: url('../fonts/fontawesome-6.1.1-web/webfonts/fa-brands-400.woff2') format('woff2'), /* Modern Browsers */ url('../fonts/fontawesome-6.1.1-web/webfonts/fa-brands-400.ttf') format('truetype'); /* Safari, Android, iOS */
+    font-display: swap;
+}
+
+.supported_software_svg::before {
+    color: rgb(116, 170, 156);
+    content: "";
+    font-family: "Font Awesome 6 Free", serif;
+    font-size: 1em;
+    font-weight: 900;
+    margin-left: 15px;
+}
+
+.download_svg::before {
+    color: rgb(116, 170, 156);
+    content: "";
+    font-family: "Font Awesome 6 Free", serif;
+    font-size: 1em;
+    font-weight: 900;
+    margin-left: 15px;
+}
+
+.tools_svg::before {
+    color: rgb(116, 170, 156);
+    content: "";
+    font-family: "Font Awesome 6 Free", serif;
+    font-size: 1em;
+    font-weight: 900;
+    margin-left: 15px;
+}
+
+.issue_svg::before {
+    color: rgb(116, 170, 156);
+    content: "";
+    font-family: "Font Awesome 6 Free", serif;
+    font-size: 1em;
+    font-weight: 900;
+    margin-left: 15px;
+}
