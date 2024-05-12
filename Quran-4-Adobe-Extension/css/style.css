@@ -22,6 +22,16 @@ body {
     text-align: center;
 }
 
+.headerIMG {
+	width: 544px;
+	height: 100px;
+}	
+
+.basmala {
+	width: 294px;
+	height: 36px;
+}
+
 .container {
     width: 788px;
     margin: 0 auto;
@@ -104,7 +114,7 @@ a {
     justify-content: center;
     align-items: center;
     max-width: 120px; /* Set the maximum width for the image */
-
+	
 }
 
 .right-group {
@@ -114,7 +124,7 @@ a {
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
-
+	
 }
 
 .option-with-icon {
@@ -170,4 +180,53 @@ a {
 code {
     background-color: #44403c;
     padding: 5px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: auto;
+        padding: 0 10px;
+	}
+	
+	.headerIMG {
+        width: 100%;
+        height: auto;
+	}
+	
+	.basmala {
+        width: 80%;
+        height: auto;
+	}
+	
+	
+	
+	
+    .screenshot {
+        width: 100% !important;
+        height: auto !important;
+	}
+	/*
+		.right-group {
+        max-width: none;
+		}
+		
+		.separation,
+		.right-side-header {
+        flex-direction: column;
+        align-items: flex-start;
+        line-height: normal;
+		}
+		
+		.application-option-content,
+		.option-with-icon {
+        flex-direction: column;
+		}
+	*/
+    .download {
+        height: auto;
+        min-height: 50vh; /* Adjust the height as needed */
+	}
+	
+	
+	
 }
