@@ -23,13 +23,13 @@ body {
 }
 
 .headerIMG {
-	width: 544px;
-	height: 100px;
-}	
+    width: 544px;
+    height: 100px;
+}
 
 .basmala {
-	width: 294px;
-	height: 36px;
+    width: 294px;
+    height: 36px;
 }
 
 .container {
@@ -141,8 +141,8 @@ a {
     display: flex;
     height: 100vh;
     background-attachment: fixed;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center;
+    align-items: center;
 }
 
 .page-header {
@@ -182,51 +182,92 @@ code {
     padding: 5px;
 }
 
-@media (max-width: 768px) {
-    .container {
-        width: auto;
-        padding: 0 10px;
+/* styles for mobile devices */
+@media only screen and (max-width: 767px) {
+	
+	
+    body {
+        font-size: 12px;
+        width: 100%;
+        margin: 0;
 	}
 	
-	.headerIMG {
+    .container {
+        font-size: 12px;
+        width: 100%;
+        margin: 10px;
+	}
+	
+    .headerIMG {
         width: 100%;
         height: auto;
 	}
 	
-	.basmala {
+    .basmala {
         width: 80%;
         height: auto;
 	}
 	
-	
-	
-	
     .screenshot {
-        width: 100% !important;
+        width: 95% !important;
         height: auto !important;
 	}
-	/*
-		.right-group {
-        max-width: none;
-		}
-		
-		.separation,
-		.right-side-header {
-        flex-direction: column;
-        align-items: flex-start;
-        line-height: normal;
-		}
-		
-		.application-option-content,
-		.option-with-icon {
-        flex-direction: column;
-		}
-	*/
-    .download {
-        height: auto;
-        min-height: 50vh; /* Adjust the height as needed */
+	
+    .btn {
+        display: block;
+        width: 90%;
+        padding: 0.75rem;
+        font-size: 0.9rem
 	}
 	
+	
+    .video {
+        max-width: 95%;
+        height: auto;
+	}
+	
+    .right-group {
+        max-width: 65px; /* Set the maximum width for the image */
+		
+	}
+	
+	
+    .right-group img {
+        height: 60px; /* Adjust the height for mobile */
+        width: 60px; /* Adjust the width for mobile */
+	}
+	
+    .background1 {
+        max-width: 90%;
+        height: auto;
+		
+	}
+	
+    .textMatte {
+        max-width: 80%;
+        height: auto;
+	}
+	
+	
+    .right-side-header {
+	        max-width: 95%;
+        text-align: center; /* Center align the header text */
+	}
+	
+	
+    .right-side-header h2 {
+        font-size: 14px;
+        line-height: 1.2;
+	}
+	
+    .issue_svg {
+        font-size: 18px; /* Adjust the font size for mobile */
+        margin: 10px 0; /* Add some vertical margin for spacing */
+	}
+	
+.option-with-icon {
+        max-width: 95%;
+}
 	
 	
 }
