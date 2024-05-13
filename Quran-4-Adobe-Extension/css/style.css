@@ -113,7 +113,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 120px; /* Set the maximum width for the image */
+    max-width: 120px; 
 	
 }
 
@@ -194,7 +194,7 @@ code {
 	
     .container {
         font-size: 12px;
-        width: 100%;
+        width: 95%;
         margin: 10px;
 	}
 	
@@ -227,14 +227,14 @@ code {
 	}
 	
     .right-group {
-        max-width: 65px; /* Set the maximum width for the image */
+        max-width: 60px; 
 		
 	}
 	
 	
     .right-group img {
-        height: 60px; /* Adjust the height for mobile */
-        width: 60px; /* Adjust the width for mobile */
+        height: 60px; 
+        width: 60px; 
 	}
 	
     .background1 {
@@ -250,8 +250,8 @@ code {
 	
 	
     .right-side-header {
-	        max-width: 95%;
-        text-align: center; /* Center align the header text */
+		max-width: 95%;
+        text-align: center; 
 	}
 	
 	
@@ -261,13 +261,11 @@ code {
 	}
 	
     .issue_svg {
-        font-size: 18px; /* Adjust the font size for mobile */
-        margin: 10px 0; /* Add some vertical margin for spacing */
+        font-size: 18px; 
+        margin: 10px 0; 
 	}
 	
-.option-with-icon {
+	.option-with-icon {
         max-width: 95%;
-}
-	
-	
+	}
 }
